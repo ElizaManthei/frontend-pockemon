@@ -1,0 +1,66 @@
+body {
+    background-color: goldenrod;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    margin: 5px 10px;
+    background-color: lightgrey;
+}
+
+img {
+    max-width: 250px;
+}
+
+span {
+    text-align: center;
+}
+
+button {
+    border: black 1px solid;
+    color: whitesmoke;
+    width: 80px;
+    font-size: 15px;
+    margin: 5px 3px;
+}
+
+.button-enabled {
+    background-color: #3955ec;
+}
+
+.button-disabled {
+    background-color: darkgrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.pokemon-kart {
+    box-shadow: 0px 10px 15px 0px #575757;
+    width: 150px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.abilities p {
+    margin-bottom: 0px;
+}
+
+
+/*.next-prev-button :disabled {*/
+/*    background-color: darkgrey;*/
+/*}*/
